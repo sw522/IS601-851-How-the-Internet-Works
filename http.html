@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>History Of The Internet</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>How The Internet Works</title>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">How The Internet Works</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="icann.html">Domain names and ICANN</a>
+                        <a class="dropdown-item" href="ips.html">IP Addresses, Packets and Routing</a>
+                        <a class="dropdown-item" href="dns.html">DNS</a>
+                        <a class="dropdown-item" href="http.html">HTTP and HTTPS protocols</a>
+                        <a class="dropdown-item" href="w3c.html">W3C and HTML and CSS</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<main role="main" class="container">
+
+    <div class="starter-template">
+        <h1>HTTP and HTTPS protocols</h1>
+        <p class="text-center"><img src="pics/http.jpg" class="img-fluid" alt="Responsive image"></p>
+        <p class="text-center">Pictured Above: The lock on your browser indicated https is being used and your data is secure</p>
+        <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTTP (Hypertext Transfer protocol) is the language used for communication between web browsers and servers.  There are two main types of these communications, the GET and POST requests.  The GET request is your browsers way of asking the server for a file (document).  When a use visits a web page one of these requests is made to get the file associated with this page which is usually coded in html.  The get request will include all the text associated with this file but if there are other objects such as imagines embedded in the code this will trigger another request for that file.  These individual subsequent requests will be rendered and displayed as the file arrives.  The other type of requests is the POST, which is when you send information to the server such as a username/password during a login or a query using a search engine.  If the login scenario the server you are communicating with will also send back some additional data called a cookie.  This is a way for a website to identify and remember who you are so that subsequent requests that are sent include that personalized data.</p>
+        <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Internet itself is an open and shared platform so trouble with HTTP is that since data is sent in plain text it is possible for hackers to intercept communications to spy on you.  Safe websites leverage HTTPS in order to protect your privacy.  HTTPS leverages SSL (Secure Sockets Layer) or TLS (Transport Layer Security) to create a secure connection between both parties.  When a website asks a browser to engage in this connection it provides a digital certificate confirming confirming it is a website it claims to be.  These certificates are issues by governing authorities that verify the websites identities like a government issuing passports.  If a server tries to initiate a secure connection without a valid certificate the web browser will warn the user that it could not verify its identity.</p>
+    </div>
+
+</main><!-- /.container -->
+<!-- Bootstrap core JavaScript -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
